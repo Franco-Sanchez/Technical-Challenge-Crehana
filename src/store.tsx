@@ -1,5 +1,5 @@
-let ID = 0
-const STORE = {
+let ID: number = 0
+const STORE: object = {
   courses: [
     {
       id: ID++,
