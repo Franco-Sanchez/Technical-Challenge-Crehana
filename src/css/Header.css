@@ -26,7 +26,7 @@
 
 @media screen and (min-width: 1200px) {
   .header {
-    padding: 24px 0;
+    padding: 24px 144px;
     margin-bottom: 16px;
   }
 
@@ -36,14 +36,14 @@
 
   .header__button {
     display: block;
-    border: 3px solid #181B32;
+    border: 3px solid var(--black-russian);
     border-radius: 10px;
     background-color: transparent;
     padding: 12px 24px;
     font-size: 16px;
     line-height: 16px;
     font-weight: 800;
-    color: #181B32;
+    color: var(--black-russian);
     outline: none;
     cursor: pointer;
   }

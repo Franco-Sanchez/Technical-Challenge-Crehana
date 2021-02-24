@@ -1,0 +1,15 @@
+.header-checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black-russian);
+  padding: 19px 0;
+}
+
+.header-checkout h1 {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 18px;
+  margin-left: 8px;
+}
