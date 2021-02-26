@@ -1,5 +1,6 @@
 import Header from '../components/UI/Header';
 import Main from '../components/courseCatalog/Main';
+import BannerCourses from '../components/UI/BannerCourses';
 
 function CourseCatalog() {
   return (
@@ -8,6 +9,7 @@ function CourseCatalog() {
         title="Crashcourse"
         text="Registrate gratis"
       />
+      <BannerCourses />
       <Main />
     </div>
   )

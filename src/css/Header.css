@@ -5,8 +5,8 @@
   padding: 16px 20px 16px 12px;
 }
 
-.header > img {
-  cursor: pointer;
+.header > a {
+  color: var(--blue-lighter);
 }
 
 .header__logo {
@@ -26,11 +26,11 @@
 
 @media screen and (min-width: 1200px) {
   .header {
-    padding: 24px 144px;
+    padding: 24px 10%;
     margin-bottom: 16px;
   }
 
-  .header > img {
+  .header > a {
     display: none;
   }
 

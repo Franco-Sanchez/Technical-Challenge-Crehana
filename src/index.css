@@ -5,8 +5,10 @@
   --black: #000;
   --black-russian: #181B32;
   --white: #FFF;
-  --gray: #F6F7F9;
-  --gray-bold: #8D8D9D;
+  --gray-dark: #8D8D9D;
+  --gray-main: #C3CBD6;
+  --gray-lighter: #F6F7F9;
+  --blue-lighter: #878FB8;
 }
 
 * {
