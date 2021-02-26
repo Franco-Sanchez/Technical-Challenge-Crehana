@@ -1,6 +1,5 @@
-import React from 'react';
-import Header from '../UI/Header'
-import MainDetail from '../layouts/Main_detail';
+import Header from '../components/UI/Header'
+import Main from '../components/courseDetail/Main';
 
 function CourseDetail() {
   return (
@@ -9,7 +8,7 @@ function CourseDetail() {
         title="Crashcourse"
         text="Registrate gratis"
       />
-      <MainDetail />
+      <Main />
     </div>
   )
 }

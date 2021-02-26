@@ -1,12 +1,11 @@
-import React from 'react';
-import Button from './Button';
-import '../../css/Banner_courses.css'
+import ButtonDark from './ButtonDark';
+import '../../css/BannerCourses.css';
 
 function BannerCourses() {
   return (
     <div className="banner">
       <h2>Title H2 - <span>banner cursos nuevos</span></h2>
-      <Button text="Comprar ahora"/>
+      <ButtonDark text="Comprar ahora"/>
     </div>
   )
 }

@@ -1,16 +1,16 @@
 let ID: number = 0;
-const STORE: object = {
+const STORE: any = {
   categories: [
-    "Marketing Digital",
-    "Manualidades",
-    "Ilustración y Dibujo",
-    "Lifestyle",
-    "Video",
-    "Negocios",
-    "Fotografía",
-    "Diseño",
-    "Escritura",
-    "Animación & 3D",
+    { id: 1, name: "Manualidades" },
+    { id: 2, name: "Lifestyle" },
+    { id: 3, name: "Video" },
+    { id: 4, name: "Negocios" },
+    { id: 5, name: "Fotografía" },
+    { id: 6, name: "Diseño" },
+    { id: 7, name: "Escritura" },
+    { id: 8, name: "Animación & 3D" },
+    { id: 9, name: "Marketing Digital" },
+    { id: 10, name: "Ilustración y Dibujo" }
   ],
   courses: [
     {

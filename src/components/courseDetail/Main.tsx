@@ -1,10 +1,9 @@
-import React from 'react';
 import '../../css/Main.css'
 
-function MainDetail() {
+function Main() {
   return (
     <div className="main"></div>
   )
 }
 
-export default MainDetail;
+export default Main;

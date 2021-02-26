@@ -1,6 +1,5 @@
-import React from 'react';
-import Header from '../UI/Header';
-import MainCatalog from '../layouts/Main_catalog';
+import Header from '../components/UI/Header';
+import Main from '../components/courseCatalog/Main';
 
 function CourseCatalog() {
   return (
@@ -9,7 +8,7 @@ function CourseCatalog() {
         title="Crashcourse"
         text="Registrate gratis"
       />
-      <MainCatalog />
+      <Main />
     </div>
   )
 }

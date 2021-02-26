@@ -1,5 +1,4 @@
-import React from 'react';
-import CourseCatalog from './components/pages/Course_catalog';
+import CourseCatalog from './pages/CourseCatalog';
 // import Checkout from './components/pages/Checkout';
 import './App.css';
 

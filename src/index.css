@@ -2,9 +2,11 @@
 
 :root {
   --font-global: Inter;
+  --black: #000;
   --black-russian: #181B32;
   --white: #FFF;
   --gray: #F6F7F9;
+  --gray-bold: #8D8D9D;
 }
 
 * {
