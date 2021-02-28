@@ -21,7 +21,7 @@
 @media screen and (min-width: 1200px) {
   .banner {
     padding: 72px 0;
-    max-width: 1152px;
+    max-width: 80%;;
     margin: 0 auto;
     border-radius: 10px;
   }

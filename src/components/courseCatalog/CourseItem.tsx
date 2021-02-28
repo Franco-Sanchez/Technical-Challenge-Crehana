@@ -1,9 +1,9 @@
-import ButtonDark from '../UI/ButtonDark';
+import Button from '../UI/Button';
 
 function CourseItem() {
   return (
     <div>
-      <ButtonDark text="Comprar ahora"/>
+      <Button text="Comprar ahora"/>
     </div>
   )
 }

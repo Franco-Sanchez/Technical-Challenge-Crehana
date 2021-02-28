@@ -1,10 +1,10 @@
-import Pagination from "./Pagination";
+// import Pagination from "./Pagination";
 
 function Courses() {
   return (
     <section>
-      <Pagination />
-      <Pagination />
+      {/* <Pagination /> */}
+      {/* <Pagination /> */}
     </section>
   )
 }
