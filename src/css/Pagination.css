@@ -1,31 +1,3 @@
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-  padding: 0 5px;
-}
-
-.pagination p {
-  color: var(--black-russian);
-  line-height: 20px;
-  letter-spacing: 0.4px;
-}
-
-.pagination--previous {
-  color: var(--gray-main);
-}
-
-.pagination--next {
-  color: var(--black-russian);
-}
-
 .selected {
   font-weight: 700;
-}
-
-@media screen and (min-width: 1200px) {
-  .pagination {
-    display: none;
-  }
 }

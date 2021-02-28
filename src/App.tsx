@@ -1,10 +1,9 @@
 import CourseCatalog from './pages/CourseCatalog';
-// import Checkout from './components/pages/Checkout';
-import './App.css';
+// import Checkout from './pages/Checkout';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <CourseCatalog />
       {/* <Checkout /> */}
     </div>

@@ -1,13 +1,18 @@
 import Categories from "./Categories";
-import '../../css/Main.css'
 import Courses from "./Courses";
+import styled from 'styled-components'
 
 function Main() {
+  const StyledMain = styled.main`
+    width: 85%;
+    margin: 0 auto;
+  `
+
   return (
-    <main className="main">
+    <StyledMain>
       <Categories title="Title H4 - Categorias" />
       <Courses />
-    </main>
+    </StyledMain>
   )
 }
 

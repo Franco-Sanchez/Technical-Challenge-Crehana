@@ -1,8 +1,13 @@
-import '../../css/Main.css'
+import styled from 'styled-components'
 
 function Main() {
+  const StyledMain = styled.main`
+    width: 85%;
+    margin: 0 auto;
+  `
+
   return (
-    <main className="main"></main>
+    <StyledMain></StyledMain>
   )
 }
 
