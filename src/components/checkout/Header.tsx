@@ -3,10 +3,10 @@ import '../../css/HeaderCheckout.css'
 
 function Header({ title }: any ) {
   return (
-    <div className="header-checkout">
+    <header className="header-checkout">
       <img src={logo} alt="icon_logo"/>
       <h1>{title}</h1>
-    </div>
+    </header>
   )
 }
 

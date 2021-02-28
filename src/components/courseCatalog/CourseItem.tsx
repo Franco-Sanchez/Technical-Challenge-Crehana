@@ -1,6 +1,6 @@
 import ButtonDark from '../UI/ButtonDark';
 
-function Course() {
+function CourseItem() {
   return (
     <div>
       <ButtonDark text="Comprar ahora"/>
@@ -8,4 +8,4 @@ function Course() {
   )
 }
 
-export default Course;
+export default CourseItem;

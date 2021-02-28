@@ -1,11 +1,13 @@
-import Category from "../courseCatalog/Category";
+import Categories from "./Categories";
 import '../../css/Main.css'
+import Courses from "./Courses";
 
 function Main() {
   return (
-    <div className="main">
-      <Category title="Title H4 - Categorias" />
-    </div>
+    <main className="main">
+      <Categories title="Title H4 - Categorias" />
+      <Courses />
+    </main>
   )
 }
 

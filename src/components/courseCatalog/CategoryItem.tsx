@@ -1,4 +1,4 @@
-import '../../css/Category.css'
+import '../../css/Categories.css'
 
 function CategoryItem({ name }: any) {
   return (
