@@ -1,6 +1,6 @@
 import Header from '../components/checkout/Header';
 
-function Checkout() {
+function Checkout({ goto }) {
   return (
     <div>
       <Header title="Crashcourse"/>

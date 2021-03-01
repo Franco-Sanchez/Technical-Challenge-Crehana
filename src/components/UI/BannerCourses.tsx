@@ -1,7 +1,7 @@
-import Button from './Button';
-import styled from 'styled-components'
+import Button from "./Button";
+import styled from "styled-components";
 
-function BannerCourses() {
+function BannerCourses({ goto }) {
   const StyledBanner = styled.div`
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ function BannerCourses() {
       margin: 0;
       padding: 50px 0px;
     }
-  `
+  `;
   const StyledTitle = styled.h2`
     font-weight: 900;
     font-size: 40px;
@@ -28,17 +28,26 @@ function BannerCourses() {
     @media screen and (max-width: 420px) {
       font-size: 32px;
     }
-  `
+  `;
   const StyledText = styled.span`
     display: block;
-  ` 
+  `;
 
   return (
     <StyledBanner>
-      <StyledTitle>Title H2 - <StyledText>banner cursos nuevos</StyledText></StyledTitle>
-      <Button dark={true} text="Comprar ahora"/>
+      <StyledTitle>
+        Title H2 - <StyledText>banner cursos nuevos</StyledText>
+      </StyledTitle>
+      <Button
+        onClick={() =>
+          sessionStorage.getItem("token") ? goto("checkout") : goto("register")
+        }
+        dark={true}
+      >
+        Comprar ahora
+      </Button>
     </StyledBanner>
-  )
+  );
 }
 
 export default BannerCourses;

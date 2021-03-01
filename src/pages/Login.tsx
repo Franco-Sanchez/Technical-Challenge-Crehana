@@ -1,7 +1,9 @@
-import React from 'react';
-
-function Login() {
-  //
+function Login({ goto }) {
+  return (
+    <div>
+      Login
+    </div>
+  )
 }
 
 export default Login;

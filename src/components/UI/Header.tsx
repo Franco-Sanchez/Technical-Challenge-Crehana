@@ -2,7 +2,7 @@ import logo from '../../assets/images/mobile/icon_logo.svg';
 import Button from './Button';
 import styled from 'styled-components'
 
-function Header({ title }: any) {
+function Header({ title, goto }: any) {
   const StyledHeader = styled.header`
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ function Header({ title }: any) {
         <StyledTitle className="header__title">{title}</StyledTitle>
       </StyledLogo>
       <StyledAnchor href="#search"><i className="fas fa-search"></i></StyledAnchor>
-      <Button white={true} text="Registrate gratis"/>
+      <Button onClick={()=> goto('register')} white={true}>Registrate gratis</Button>
     </StyledHeader>
   )
 }
